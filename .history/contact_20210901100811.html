@@ -1,0 +1,433 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width , initial-scale=1">
+<style>
+    body{
+    overflow-x: hidden;
+  }
+
+#mainNav{
+    background-color: white;
+  }
+  li a {
+    color: black ;
+    font-family: "Lucida Console", "Courier New";
+    font-size: 15px ;
+    text-align: left ;
+    float: right;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+  
+      }
+  
+li a:hover {
+    color: blue;
+    
+  }
+
+  
+
+
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.contact {
+    padding-bottom: 80px;
+  }
+  
+  .contact .info-box {
+    color: #444444;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+  }
+  
+  .contact .info-box img {
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px dotted #666768;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .contact .php-email-form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    background: #fff;
+  }
+
+ 
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  
+  
+ 
+  
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form input:focus, .contact .php-email-form textarea::focus {
+    background-color: #00337E;
+  }
+  
+  .contact .php-email-form input {
+    padding: 20px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type="submit"] {
+    background: #00337E;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    background: #000000;
+  }
+  
+
+
+  @media screen and (max-width: 1350px){
+    .contact{
+      margin-top: 0px;
+    }
+  }
+
+  h6{
+  color: white;
+  font-size:16px;
+  margin-top:5px;
+  letter-spacing:2px;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+
+.footer-links a:hover
+{
+  color:#3366cc;
+}
+.footer-links a
+{
+text-decoration: none;
+color: white;
+text-align: justify;
+float: left;
+margin-left: 10px;
+}
+.footer-links li{
+  display: inline-block;
+  
+
+}
+
+  
+
+
+</style>
+
+
+    </head>
+    <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand " href="#page-top" style="float:left;">
+                <img src="images/Logo-S2T png.png" width="150px" height="110px">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+                    
+            <div class="collapse navbar-collapse" id="navbarResponsive"  >
+                <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.php">Accueil</a></li>
+                  <div class="dropdown">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Le technopark</a></li>
+    <br>
+    <br>
+                    <div class="dropdown-content">
+                      <a href="./presentation.html">Presentation</a>
+                      <a href="./actualites.html">Actualites</a>
+                      <a href="#">Evenements/Agenda</a>
+                    </div>
+                  </div> 
+                  <div class="dropdown">
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                     <br>
+    <br>
+                    <div class="dropdown-content">
+                      <a href="#">infrastructure & Logistique</a>
+                      <a href="#">Processus d'accompagnement</a>
+                      <a href="#"> Espace de Conferences</a>
+                    </div>
+                    </div>
+                    <div class="dropdown">
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">S'implanter</a></li>
+                     <br>
+                     <br>
+                                     <div class="dropdown-content">
+                                       <a href="#">Pepiniere d'entreprises</a>
+                                       <a href="#"> Cyberparcs regionaux</a>
+                                       <a href="#"> Espace entreprises</a>
+                                     </div>
+                                     </div>
+                                     <div class="dropdown">
+    
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Annuaires</a></li>
+                     <br>
+                     <br>
+                                     <div class="dropdown-content">
+                                       <a href="#">Elgazala Technopark</a>
+                                       <a href="#"> Manouba Technopark</a>
+                                       <a href="#"> Cyberpark</a>
+                                     </div>
+                                     </div>
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Nous Contacter</a></li>
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Tech Transfer</a></li>
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./espace admin/login.php">Espace admin</a></li>
+    
+    
+    
+                     
+    
+    
+    
+                    
+                   
+    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact section-bg" style="margin-top: 180px;">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+        <h2 style="color:#00337E; font-size: 26PX; font-weight: bolder;          text-shadow: 2px 2px 5px #F9A826, 6px 6px 5px rgb(171, 179, 171);
+          text-shadow: 2px 2px 5px #696968d8, 6px 6px 5px rgb(171, 179, 171);
+        ">
+            QUI CONTACTER ?</h2>
+        <p>Smart Tunisian Technoparks est le premier technopole en Tunisie. Sa creation a ete decidee dans le cadre de la strategie de developpement du secteur des technologies de la communication.</p>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6">
+          <div class="info-box mb-4">
+            <img src="images/place-localizer.png">
+            <h3>Our Address</h3>
+            <p>Technopole El Ghazela,Ariana</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-box  mb-4">
+            <img src="images/mail.png">
+            <h3>Email Us</h3>
+            <p>contact@s2t.tn</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-box  mb-4">
+            <img src="images/call.png">
+            <h3>Call Us</h3>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-6 ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6381.735477808089!2d10.186493473686761!3d36.893512200154426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb71841eca41%3A0x90bf0f4a4360e5fa!2sPole%20Technologique%20El%20Gazela!5e0!3m2!1sfr!2stn!4v1629746516212!5m2!1sfr!2stn" width="540" height="410" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="col-lg-6">
+          <form action="contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+           <BR>
+            <br>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Sectionu -->
+
+
+  <div style="background-color: #00337E; width: 100%; height: 100%;">
+    <div style="background-color: rgba(255, 255, 255, 0.555); height: 300px;width: 450px; margin-left: 30px;  ">
+      <img src="images/Logo-S2T png.png" width="160px" height="110px" style="margin-left: 20px;margin-top: -35px;">
+      <br>
+      <br>
+      <p style=" margin-left: 20px; font-size: 19px; font-family:'Ranga'; font-style: italic;">Smart Tunisian Technoparks,<br> Raoued, Gouvernorat de l'Ariana, Tunisie<br>
+        (+216) 71 856 600  <br>
+        Voir sur google Map</p>  
+    </div>
+    </div>
+    
+    <br>
+    <div style="margin-top: -390px;">
+      <h6>MENU PRINCIPAL</h6>
+      <ul class="footer-links" >
+        <li style="  list-style:none ;"><a href=""> Accueil</a></li>
+        <br>
+        <li  style="  list-style:none ;"><a href="">Le technopark</a></li>
+        <br>
+        <li  style="  list-style:none ;"><a href="">Actualites</a></li>
+        <br>
+        <li  style="  list-style:none ;"><a href="">Evenements/Agenda</a></li>
+        <br>
+        <li  style="  list-style:none ;"><a href="">S'implanter</a></li>
+        <br>
+        <li  style="  list-style:none ;"><a href="">Services</a></li>
+        <br>
+        <li  style="  list-style:none ;"><a href="">Annuaire</a></li>
+    
+      </ul>
+    </div>
+    
+    <div style="margin-left: 400px; margin-top: -268px; width: 50%;">
+      <h6 style="margin-left: 50px;">LIENS UTILES</h6>
+      <ul class="footer-links"  >
+        <li><a href=""> Ministere des Technologies
+          de la <br>Communication et de l'Economie <br>
+          Numerique.
+          </a></li>
+        <br>
+        <li><a href="">Ministere du developpement 
+          et <br> de la cooperation Internationale.
+        </a></li>
+        <br>
+        <li><a href="">Agence Nationale pour l'Emploie <br>
+          et Le Travail Independant.
+        </a></li>
+        <br>
+        <li><a href="">APII</a></li>
+        <br>
+        <li><a href="">FIPA </a></li>
+        <br>
+        <li><a href="">Entreprise Europe Network</a></li>
+        <br>
+    
+      </ul>
+    </div>
+    <div style="margin-left: 900px; margin-top: -330px; width: 50%;">
+      <h6 style="margin-left: 50px;">LIENS UTILES</h6>
+      <ul class="footer-links"  >
+        <li><a href=""> ANSI
+          </a></li>
+        <br>
+        <li><a href="">CERT
+        </a></li>
+        <br>
+        <li><a href="">CNI
+        </a></li>
+        <br>
+        <li><a href="">Certification</a></li>
+        <br>
+        <li><a href="">FIPA </a></li>
+        <br>
+        <li><a href="">L'agence Tunisienne de l'Internet</a></li>
+        <br>
+    
+      </ul>
+    </div>
+    <div class="container" style="margin-top:200px;">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+       <a href="#" style="color: black; font-weight: bold;">Smart Tunisian Technoparks</a>.
+          </p>
+        </div>
+        <div style="margin-top: -750px; margin-left: 800px;">
+          <h6 style="margin-left: 20px;">NEWSLETTER</h6>
+        <div class="container">
+          <p style="color: white; font-weight: bold; font-size: 17px;">Vous voulez avoir regulierement de nos nouvelles? <br>
+          Inscrivez-vous a notre newsLetter.</p>
+          <input type="text"  style="margin-left: 160px;"><button style=" margin-left: 355px; margin-top: -30px; background-color: white;" type="button" ><b>GO!</b></button>
+        </div>
+        </div>
+    
+    
+    
+      
+    </body>
+</html>

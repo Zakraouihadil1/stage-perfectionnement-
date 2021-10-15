@@ -1,0 +1,79 @@
+#page-top {
+  background-image:url("images/ksdle.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+  background-position-y: 30px;
+  padding-top: 20px;
+
+  
+ 
+  }
+  body{
+    height: 2000px;
+  }
+  img{
+    margin-top: -10px;
+
+  }
+  #mainNav{
+    background-color: white;
+  }
+  li a {
+    color: black ;
+    font-family: "Lucida Console", "Courier New";
+    font-size: 15px ;
+    text-align: left ;
+    float: right;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+  
+      }
+  
+li a:hover {
+    color: blue;
+    
+  }
+
+  .section1 {
+    position: relative;
+    font-family: Arial;
+    margin-top: 800px;
+  }
+  
+  .text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 250px;
+  }
+  .section2 {
+    position: relative;
+    font-family: Arial;
+    margin-left: 500px;
+    margin-top: -165px;
+  }
+
+  .section3{
+    position: relative;
+    font-family: Arial;
+    margin-left: 870px;
+    margin-top: -163px;
+
+  }
+  .text-block3 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 250px;
+  }
+  
+  

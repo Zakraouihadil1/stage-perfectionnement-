@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#page-top {
+  background-image:url("images/ksdle.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 1350px 600px;
+  background-position-y: 30px;
+  padding-top: 20px;}
+.navbar-nav{
+  background-color:#ffff ;
+}
+
+      li a {
+        color: black ;
+        font-family: "Lucida Console", "Courier New";
+        font-size: 14px ;
+        text-align: left ;
+        float: right;
+        text-decoration: underline;
+        font-weight: bold;
+          }
+      
+    li a:hover {
+        color:#181715;
+      }
+
+       
+   

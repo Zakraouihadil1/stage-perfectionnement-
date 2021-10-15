@@ -1,0 +1,31 @@
+.navbar-nav{
+  background-color:#ffff ;
+}
+
+      li a {
+        color: black ;
+        font-family: "Lucida Console", "Courier New";
+        font-size: 14px ;
+        text-align: left ;
+        float: right;
+        text-decoration: underline;
+          }
+      
+    li a:hover {
+        color:#181715;
+      }
+
+      div .navbar-brand  {
+          color: #f9a826;
+          font-weight: bolder;
+          text-shadow: 2px 2px 5px #F9A826, 6px 6px 5px rgb(171, 179, 171);
+          font-style: italic;
+        
+      } 
+        
+      div .navbar-brand:hover{
+          color:#F9A826;
+          opacity: 12px;
+      }
+       
+   

@@ -1,0 +1,160 @@
+#page-top {
+  background-image:url("images/ksdle.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+  background-position-y: 30px;
+  padding-top: 20px;
+
+  
+ 
+  }
+  body{
+    height: 2000px;
+  }
+  img{
+    margin-top: -10px;
+
+  }
+  #mainNav{
+    background-color: white;
+  }
+  li a {
+    color: black ;
+    font-family: "Lucida Console", "Courier New";
+    font-size: 15px ;
+    text-align: left ;
+    float: right;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+  
+      }
+  
+li a:hover {
+    color: blue;
+    
+  }
+
+  .section1 {
+    position: relative;
+    font-family: Arial;
+    margin-top: 800px;
+  }
+  
+  .text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 250px;
+  }
+  .section2 {
+    position: relative;
+    font-family: Arial;
+    margin-left: 550px;
+    margin-top: -165px;
+  }
+
+  .section3{
+    position: relative;
+    font-family: Arial;
+    margin-left: 890px;
+    margin-top: -163px;
+
+  }
+  .text-block3 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 250px;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: center;
+    width: 20%;
+    margin-left: 62px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 190 -2px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 #8ee9bd;
+  padding: 16px;
+  text-align: center;
+
+}
+
+  
+.card img {
+  border-radius: 250px;
+}
+
+
+.imageoverbox {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-color: blue;
+  margin-right: 100px;
+}
+.div3{
+  margin-top: -90px;
+  float: right;
+}
+.images{
+  margin-top: -395px;
+  margin-left: 120px;
+}
+.ligne {
+  color: blue;
+  font-size: 18px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.parg{
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.box1{
+  height: 150px;
+  width: 170px;
+  background-color: blue;
+}
+

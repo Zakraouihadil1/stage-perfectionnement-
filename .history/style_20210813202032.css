@@ -1,0 +1,314 @@
+#page-top {
+  background-image:url("images/ksdle.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+  background-position-y: 30px;
+  padding-top: 20px;
+
+  
+ 
+  }
+  body{
+    height: 2000px;
+  }
+  img{
+    margin-top: -10px;
+
+  }
+  #mainNav{
+    background-color: white;
+  }
+  li a {
+    color: black ;
+    font-family: "Lucida Console", "Courier New";
+    font-size: 15px ;
+    text-align: left ;
+    float: right;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+  
+      }
+  
+li a:hover {
+    color: blue;
+    
+  }
+
+  .section1 {
+    position: relative;
+    font-family: Arial;
+    margin-top: 800px;
+  }
+  
+  .text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 250px;
+  }
+  .section2 {
+    position: relative;
+    font-family: Arial;
+    margin-left: 550px;
+    margin-top: -165px;
+  }
+
+  .section3{
+    position: relative;
+    font-family: Arial;
+    margin-left: 890px;
+    margin-top: -163px;
+
+  }
+  .text-block3 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 250px;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: center;
+    width: 20%;
+    margin-left: 62px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 190 -2px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 #8ee9bd;
+  padding: 16px;
+  text-align: center;
+
+}
+
+  
+.card img {
+  border-radius: 250px;
+}
+
+
+.imageoverbox {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-color: blue;
+  margin-right: 100px;
+}
+.div3{
+  margin-top: -90px;
+  float: right;
+}
+.images{
+  margin-top: -395px;
+  margin-left: 120px;
+}
+.ligne {
+  color: blue;
+  font-size: 18px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.parg{
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.section {
+  position: relative;
+  font-family: Arial;
+  margin-top: 100px;
+}
+
+.block {
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 80px;
+  width: 1470px;
+  height: 130px;
+}
+.blocks1 {
+  margin-top: 300px;
+  margin-left: 160px;
+  padding-left: 20px;
+  padding-right: 80px;
+  width: 190px;
+  height: 140px;
+}
+
+.blocks2{
+  margin-top: -140px;
+  margin-left: 280px;
+  padding-right: 80px;
+  width: 190px;
+  height: 140px; 
+
+}
+
+.blocks3{
+  margin-top: -100px;
+  margin-left: 300px;
+  padding-right: 80px;
+  width: 190px;
+  height: 140px;
+
+}
+
+.blocks4{
+  margin-top: -100px;
+  margin-left: 300px;
+  padding-right: 80px;
+  width: 190px;
+  height: 140px;
+
+}
+h1,h2{
+  display: center;
+  color: rgb(9, 148, 212);
+
+}
+.galeries{
+  background-color:rgb(9, 148, 212);
+  margin-top:123px;
+  width: 1504px;
+  height: 800px;
+  margin-left:-500px ;
+}
+
+
+.containers {
+  margin: 0;
+  padding: 0;
+  height: -500%;
+  width: 1000%;
+  font-family: 'Cormorant', serif;
+  background: #050505
+}
+
+
+
+p {
+  font-size: 20px;
+  line-height: 33px !important;
+  color: rgb(3, 3, 3)
+}
+
+
+
+
+
+.card:after {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  z-index: 9999;
+  height: 50%;
+  pointer-events: none
+}
+
+.card-title img {
+  z-index: 99999 !important
+}
+
+.card .layer {
+  position: absolute;
+  top: calc(100% - 5px);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#03a9f4, #e91ee3);
+  left: 0;
+  z-index: 1;
+  transition: 0.5s
+}
+
+.card:hover {
+  box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5)
+}
+
+.card:hover hr {
+  background-color: rgb(7, 7, 7)
+}
+
+
+
+
+.card .content .img-1 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white !important
+}
+
+.card h4 {
+  color: rgb(0, 0, 0);
+  font-weight: 500
+}
+
+hr {
+  background-color: rgb(117, 117, 117);
+  width: 80% !important;
+  transition: 1s
+}
+
+.bold {
+  font-weight: 500
+}
+
+#quotes {
+  opacity: 0.1;
+  filter: alpha(opacity=40)
+}
+
+@media (max-width: 479px) {
+  p {
+      padding: 0 !important
+  }
+
+  .img-1 {
+      margin-right: 0 !important
+  }
+}
